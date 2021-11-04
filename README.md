@@ -1,5 +1,5 @@
 # api-test
-API test POC using mocha, chai and node-fetch 
+API test POC using [mocha](https://mochajs.org/), [chai](https://www.chaijs.com/), [node-fetch ](https://www.npmjs.com/package/node-fetch) and [mochawesome reporter](https://www.npmjs.com/package/mochawesome)
 
 ### 1. Install 
 ```
