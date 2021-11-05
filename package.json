@@ -1,19 +1,23 @@
 {
-  "name": "api-test",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx mocha src/tests/**.spec.js --reporter mochawesome"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3",
-    "mochawesome": "^7.0.0",
-    "node-fetch": "^3.0.0"
-  }
+	"name": "api-test",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "API testing POC",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "npx mocha src/tests/**.spec.js --reporter mochawesome",
+		"start": "node src/index.js"
+	},
+	"keywords": [
+		"api",
+		"testing"
+	],
+	"author": "danrusu",
+	"license": "MIT",
+	"dependencies": {
+		"chai": "^4.3.4",
+		"mocha": "^9.1.3",
+		"mochawesome": "^7.0.0",
+		"node-fetch": "^3.0.0"
+	}
 }
