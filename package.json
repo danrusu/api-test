@@ -4,6 +4,10 @@
 	"version": "1.0.0",
 	"description": "API testing POC",
 	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danrusu/api-test.git"
+	},
 	"scripts": {
 		"test": "npx mocha src/tests/**.spec.js --reporter mochawesome",
 		"start": "node src/index.js"
