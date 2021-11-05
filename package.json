@@ -10,7 +10,8 @@
 	},
 	"scripts": {
 		"test": "npx mocha src/tests/**.spec.js --reporter mochawesome",
-		"start": "node src/index.js"
+		"start": "node src/index.js",
+		"publish": "npmnpm publish --access public"
 	},
 	"keywords": [
 		"api",
