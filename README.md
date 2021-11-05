@@ -18,5 +18,5 @@ npm test
 ```
 npm info drusu-api-test
 npm install drusu-api-test
-npx mocha node_modules/drusu-api-test/src/tests
+npx mocha node_modules/drusu-api-test/src/tests --reporter mochawesome
 ```
