@@ -1,5 +1,5 @@
 {
-	"name": "@danginkgo/api-test",
+	"name": "drusu-api-test",
 	"type": "module",
 	"version": "1.0.0",
 	"description": "API testing POC",
@@ -11,7 +11,7 @@
 	"scripts": {
 		"test": "npx mocha src/tests/**.spec.js --reporter mochawesome",
 		"start": "node src/index.js",
-		"publish": "npmnpm publish --access public"
+		"publish": "npm publish --access public"
 	},
 	"keywords": [
 		"api",
