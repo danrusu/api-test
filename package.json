@@ -12,7 +12,7 @@
 		"api",
 		"testing"
 	],
-	"author": "danrusu",
+	"author": "Dan Rusu",
 	"license": "MIT",
 	"dependencies": {
 		"chai": "^4.3.4",
