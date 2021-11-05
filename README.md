@@ -13,3 +13,10 @@ npm test
 
 ### 3. Reports
 - check the ./mochawesome-report folder
+
+### 4. Npm package
+```
+npm info drusu-api-test
+npm install drusu-api-test
+npx mocha node_modules/drusu-api-test/src/tests
+```
